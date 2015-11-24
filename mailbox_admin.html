@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Include meta tag to ensure proper rendering and touch zooming -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Include jQuery Mobile stylesheets -->
+  <link rel="stylesheet" href="themes1/color.min.css">
+  <link rel="stylesheet" href="themes1/jquery.mobile.icons.min.css">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">
+  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
+  <!-- Include the jQuery library -->
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- Include the jQuery Mobile library -->
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+  <style>
+	th {
+    	border-bottom: 2px solid #5c6161;
+	}
+	tr:nth-child(even) {
+    	background: #8fefe1;
+    	background: #facfb7;
+	}
+   </style>
+</head>
+
+<body>
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center">Mail tracking</h3>
+  <!--<p class="text-center"><em>We love our fans!</em></p>
+
+  <div class="row"><!-- row1 -->	
+    <div class="col-md-4">
+      <p>Contact Us</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>  Phuket, Thailand</p>
+      <p><span class="glyphicon glyphicon-phone"></span>  Phone: +66898765432</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>  Email: admincoepsu@hotmail.com</p>	   
+    </div>
+    
+  
+    <div class="col-md-12">
+      <div class="row">	
+      <div class="col-sm-10">
+      <form role="form" method="post" action= "mailbox.php">
+      <div class="form-group">
+        <label for="room">Room:</label>
+        <input type="text" name="room" class="form-control" id="room" placeholder="Enter room">
+      </div>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" name="name" class="form-control" id="name" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <label for="email">EMS Number:</label>
+        <input type="text" name="ems" class="form-control" id="ems" placeholder="Enter EMS number">
+      </div>
+      
+      <div class="form-group">
+   		<label for="day">Date:</label>
+        <input type="text" name="day" class="form-control" id="datetimepicker4" placeholder="Enter date and time">
+        <span class="add-on">
+        <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+        </span>
+      </div>
+
+      <script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+      </script> 
+      <script type="text/javascript"
+        src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js">
+      </script>
+      <script type="text/javascript"
+        src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
+      </script>
+      <script type="text/javascript"
+        src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.pt-BR.js">
+      </script>
+      <script type="text/javascript">
+        $('#datetimepicker').datetimepicker({
+          format: 'dd/MM/yyyy hh:mm:ss',
+          language: 'pt-BR'
+        });
+      </script>
+      
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">	
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+      </form>
+      </div>
+      </div>
+    </div>
+	
+
+</body>
+</html>
+
+
+
